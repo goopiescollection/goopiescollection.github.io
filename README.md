@@ -1,10 +1,10 @@
 # collectible-catalogue-v1
 
-This repo contains a simple website displaying **Hello World!**.
+This project hosts a simple landing page showcasing a small catalogue of collectible cards. The cards on the page are static examples with a modern design and pricing information.
 
 ## Running locally
 
-Open `index.html` in your browser.
+Open `index.html` in your browser to view the site.
 
 ## Deploying on GitHub Pages
 
