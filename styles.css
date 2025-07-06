@@ -5,6 +5,12 @@ body {
     color: #333;
 }
 
+h1, h2, h3 {
+    font-family: 'Creepster', cursive;
+    color: #fff;
+    text-shadow: -2px 0 #4e54c8, 2px 0 #4e54c8, 0 2px #4e54c8, 0 -2px #4e54c8;
+}
+
 .hero {
     background: linear-gradient(120deg, #4e54c8, #8f94fb);
     color: white;
