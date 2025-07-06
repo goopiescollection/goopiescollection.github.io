@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Creepster', cursive;
+    color: #fff;
+    text-shadow: -2px 0 #4e54c8, 2px 0 #4e54c8, 0 2px #4e54c8, 0 -2px #4e54c8;
+}
+
+.hero {
+    background: linear-gradient(120deg, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.catalogue {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.catalogue h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.3em;
+}
+
+.card p {
+    padding: 0 15px;
+    flex-grow: 1;
+}
+
+.price {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.buy {
+    background-color: #4e54c8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.buy:hover {
+    background-color: #3d40a2;
+}
+
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
